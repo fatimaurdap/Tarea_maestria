@@ -1,7 +1,13 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
-Bundle-Name: MIISO
-Bundle-SymbolicName: MIISO; singleton:=true
+Bundle-Name: %pluginName
+Bundle-SymbolicName: MIISO;singleton:=true
+Automatic-Module-Name: MIISO
 Bundle-Version: 0.1.0.qualifier
+Bundle-ClassPath: .
+Bundle-Vendor: %providerName
+Bundle-Localization: plugin
+Bundle-RequiredExecutionEnvironment: J2SE-1.5
 Require-Bundle: org.eclipse.emf.ecore;visibility:=reexport,
  org.eclipse.core.runtime
+Bundle-ActivationPolicy: lazy
